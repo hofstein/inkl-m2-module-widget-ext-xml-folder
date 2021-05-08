@@ -1,0 +1,13 @@
+{
+	"name": "inkl/m2-module-widget-ext-xml-folder",
+	"description": "Add widget-ext.xsd",
+	"type": "magento2-module",
+	"autoload": {
+		"files": [
+			"src/registration.php"
+		],
+		"psr-4": {
+			"Inkl\\WidgetExtXmlFolder\\": "src"
+		}
+	}
+}
